@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BC {
+public class VacunaDeTipoABYC {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -9,7 +9,9 @@ public class BC {
         edad = in.nextInt();
         in.nextLine();
         System.out.println("Selecciona el valor de sexo.");
-        System.out.println("\t1.");
+        System.out.println("\t1.- mujer");
+        System.out.println("\t2.- hombre");
+        System.out.print("\t: ");
         do {
             sexo = in.nextInt();
             in.nextLine();
@@ -24,4 +26,4 @@ public class BC {
             System.out.println("C");
     }
 
-} 
+}
